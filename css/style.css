@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --principal: #A21E14;
+    --secundario: #FFEFC1;
+    --gris: #E0A987;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Krub', sans-serif;
+    background-color: var(--secundario);
+    margin: 10px 10px;
+}
+
+
+.Logo {
+    width: 160px;
+    margin: 10px 10px;
+}
+
+.nav-bg {
+    background-color: var(--principal);
+    border: #212121 solid 1px;
+    border-radius: 1px;
+}
+
+.navegacion-principal ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion-principal li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.boxFotos {
+    border: #212121 solid 1px;
+    margin-top: 20px;
+    height: 200px;
+    background-color: #E0A987;
+
+}
+
+
+footer {
+    border: 1px #212121 solid;
+    padding: 5px 5px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+.logosFooter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.footer {
+    width: 90px;
+}
+
+.parrafoNosotros {
+    border: 1px solid black;
+    padding: 5px 5px;
+    margin-top: 15px;
+}
+
+h1 {
+    margin: 20px 20px;
+}
+
+.boxFotosdestacados {
+    border: #212121 solid 1px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: #E0A987;
+
+}
+
+.contenedorSun {
+    border: #212121 solid 1px;
+    display: flex;
+}
+
+.sunUno {
+    width: 244px;
+}
+
+.sunDos {
+    width: 244px;
+    height: 143px;
+}
+
+.sunTres {
+    width: 244px;
+    height: 143px;
+}
+
+.tamLogo {
+    height: 150px;
+}
